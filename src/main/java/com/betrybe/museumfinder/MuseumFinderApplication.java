@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
- * Appplication main class.
+ * Application main class.
  */
 @SpringBootApplication
 public class MuseumFinderApplication {
