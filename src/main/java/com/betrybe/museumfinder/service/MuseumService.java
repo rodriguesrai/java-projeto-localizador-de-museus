@@ -42,7 +42,7 @@ public class MuseumService implements MuseumServiceInterface {
   }
 
   @Override
-  public Museum getMuseumById(Long id) {
+  public Museum getMuseum(Long id) {
     return museumFakeDatabase.getMuseum(id)
         .orElseThrow(MuseumNotFoundException::new);
   }

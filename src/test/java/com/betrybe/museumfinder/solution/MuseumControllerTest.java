@@ -37,7 +37,7 @@ public class MuseumControllerTest {
     Museum museumMock = new Museum();
     museumMock.setId(1L);
     museumMock.setName("Museu Casa Memória dos Ex-Combatentes da Segunda Guerra Mundial");
-    Mockito.when(museumService.getMuseumById(1L)).thenReturn(museumMock);
+    Mockito.when(museumService.getMuseum(1L)).thenReturn(museumMock);
 
     ResultActions result = mockMvc.perform(get("/museums/1"));
 
